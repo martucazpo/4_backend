@@ -1,0 +1,21 @@
+.main-div {
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .main-header {
+        height: 15%;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        span {
+            color: dodgerblue;
+            display: inline-flex;
+        }
+    }
+}

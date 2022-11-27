@@ -1,0 +1,219 @@
+*, html, body, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-div {
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-div .main-header {
+  height: 15%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-div .main-header span {
+  color: dodgerblue;
+  display: inline-flex;
+}
+
+.footer {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 3em;
+  background-color: black;
+  color: white;
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 2em;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.the-login-btn {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}
+
+.the-login-btn:hover {
+  border: 1px solid white;
+  color: black;
+  background-color: white;
+}
+
+.the-login-btn:focus {
+  border: 1px solid goldenrod;
+  background-color: goldenrod;
+  color: white;
+}
+
+.log-out-form button {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}
+.log-out-form button:hover {
+  border: 1px solid white;
+  color: black;
+  background-color: white;
+}
+.log-out-form button:focus {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: bisque;
+  z-index: 10;
+  width: 100vw;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal .close-modal-btn {
+  padding: 0.25em;
+  margin-top: 2em;
+  margin-left: 70%;
+  background-color: inherit;
+}
+.modal .close-modal-btn:hover {
+  background-color: rgb(253, 78, 78);
+  color: white;
+}
+.modal .close-modal-btn:focus {
+  background-color: darkred;
+}
+.modal .log-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal .log-div form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+.modal .log-div form span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.modal .log-div form span label {
+  padding: 0.25em;
+}
+.modal .log-div form span input {
+  padding: 0.75em;
+}
+.modal .log-div form button {
+  font-size: 1em;
+  padding: 1.3em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  background-color: black;
+  color: white;
+}
+.modal .log-div form button:hover {
+  background-color: seagreen;
+}
+.modal .log-div .reg-log-btn-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0em;
+}
+.modal .log-div .reg-log-btn-div button {
+  padding: 0.75em;
+  background-color: inherit;
+}
+.modal .log-div .reg-log-btn-div button:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+.modal .log-div .message-div {
+  padding: 1em;
+}
+
+@media screen and (min-width: 400px) {
+  .modal .log-div form {
+    width: 85%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .modal {
+    top: 17vh;
+    left: 5%;
+    width: 90vw;
+  }
+  .modal .log-div form {
+    width: 85%;
+  }
+}
+@media screen and (min-width: 750px) {
+  .modal {
+    width: 60vw;
+    left: 12%;
+  }
+  .modal .log-div form {
+    width: 75%;
+  }
+}
+.card {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(34, 1, 34);
+  margin-top: 3em;
+}
+.card .card-header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(34, 1, 34);
+  color: white;
+}
+.card .card-body {
+  height: 20vh;
+  background-color: beige;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

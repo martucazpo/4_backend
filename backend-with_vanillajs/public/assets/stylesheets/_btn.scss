@@ -1,0 +1,47 @@
+button {
+    outline: none;
+    border: none;
+    padding: 2em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.the-login-btn {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+
+.the-login-btn:hover {
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+}
+
+.the-login-btn:focus {
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
+    color: white;
+}
+
+.log-out-form {
+    button {
+        border: 1px solid white;
+        color: white;
+        background-color: black;
+    }
+
+    button:hover {
+        border: 1px solid white;
+        color: black;
+        background-color: white;
+    }
+
+    button:focus {
+        border: 1px solid red;
+        background-color: red;
+        color: white;
+    }
+}
